@@ -1,0 +1,32 @@
+{
+  "name": "@tokeianarogu/mobile",
+  "version": "1.0.0",
+  "description": "Analog clock mobile app - Expo (React Native) for Android & iOS",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios",
+    "build:all": "eas build --platform all"
+  },
+  "dependencies": {
+    "expo": "~50.0.6",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-svg": "14.1.0",
+    "@expo/vector-icons": "^14.0.0",
+    "expo-router": "~3.4.6",
+    "expo-font": "~11.10.2",
+    "expo-splash-screen": "~0.26.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@types/react": "~18.2.55",
+    "@types/react-native": "~0.73.0",
+    "typescript": "^5.3.3"
+  }
+}
