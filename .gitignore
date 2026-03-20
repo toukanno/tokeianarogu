@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build outputs
+packages/web/dist/
+packages/desktop/dist/
+packages/desktop/release/
+packages/mobile/.expo/
+packages/mobile/android/
+packages/mobile/ios/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Expo
+packages/mobile/expo-env.d.ts
+
+# Electron
+packages/desktop/dist/
+
+# Secrets
+google-services-key.json
+*.p8
+*.p12
+*.mobileprovision
